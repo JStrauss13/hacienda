@@ -1,0 +1,117 @@
+footer {
+    width: 100%;
+    background-color: $orange;
+
+    .container {
+        height: 100%;
+        display: flex;
+
+        .redes {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                padding: 20px;
+
+                img {
+                    height: 80px;
+                }
+            }
+
+            .media {
+                padding: 20px;
+
+                h3 {
+                    font-family: $fontone;
+                    color: $white;
+                    padding: 5px 0;
+                }
+
+                .icons {
+
+                    .fa-instagram,
+                    .fa-twitter-square,
+                    .fa-facebook-square,
+                    .fa-linkedin {
+                        color: $white;
+                        font-size: 2rem;
+
+                        &:hover {
+                            color: $brown;
+                        }
+                    }
+                }
+            }
+        }
+
+        .phycontact {
+            display: flex;
+            color: $white;
+            justify-content: space-evenly;
+            align-items: center;
+            font-family: $fontone;
+
+            .homeinf {
+                width: 50%;
+                padding: 0 20px;
+                display: flex;
+                flex-direction: column;
+
+                h3 {
+                    font-family: $fontone;
+                    padding: 5px 0;
+                }
+
+                .ic {
+                    ul {
+                        li {
+                            display: flex;
+
+                            .fa-phone-square-alt,
+                            .fa-envelope-square {
+                                font-size: 1.5rem;
+                            }
+
+                            p {
+                                padding-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .homeadd {
+                padding: 0 20px;
+
+                .fa-home {
+                    font-size: 1.5rem;
+                }
+
+            }
+        }
+    }
+
+    .regbrand {
+        background-color: $wheat;
+
+        .container {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: $brown;
+            font-size: 1rem;
+            font-family: $mainfont;
+
+            .nombre {
+                width: 30%;
+            }
+
+            .marca {
+                width: 30%;
+            }
+        }
+    }
+}

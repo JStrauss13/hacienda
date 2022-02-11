@@ -1,0 +1,1748 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Rouge+Script&family=Waterfall&family=Zen+Kaku+Gothic+Antique&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: #d66801;
+  z-index: 2;
+}
+
+nav .container {
+  height: 100%;
+}
+
+nav .container .mobile {
+  display: none;
+}
+
+nav .container .desk {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container .desk .logo {
+  width: 50%;
+}
+
+nav .container .desk .logo img {
+  height: 80px;
+}
+
+nav .container .desk .menu {
+  width: 50%;
+  height: 100%;
+}
+
+nav .container .desk .menu ul {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .container .desk .menu ul li {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+nav .container .desk .menu ul li a {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .container .desk .menu ul li a:hover {
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+  background: rgba(158, 76, 0, 0.849);
+}
+
+.two {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background: rgba(158, 76, 0, 0.849);
+  z-index: 2;
+}
+
+.two .container {
+  height: 100%;
+}
+
+.two .container .mobile {
+  display: none;
+}
+
+.two .container .desk {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.two .container .desk .logo {
+  width: 50%;
+}
+
+.two .container .desk .logo img {
+  height: 80px;
+}
+
+.two .container .desk .menu {
+  width: 50%;
+  height: 100%;
+}
+
+.two .container .desk .menu ul {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.two .container .desk .menu ul li {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.two .container .desk .menu ul li a {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.two .container .desk .menu ul li a:hover {
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+  background: #d66801;
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background: url("../new/max-O_TVsaeZNlE-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+header .container {
+  position: relative;
+  height: 100%;
+  margin: auto;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .container h1 {
+  font-family: "Waterfall", cursive;
+  font-size: 4.5rem;
+  color: white;
+  text-align: center;
+  padding: 250px 0 0px 0;
+}
+
+header .container p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+
+header .container button {
+  padding: 10px 25px;
+  border-radius: 28px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #e6deda;
+  background: #d66801;
+  border: none;
+}
+
+header .container button:hover {
+  background-color: white;
+  -webkit-transition: ease-in-out 0.40s;
+  transition: ease-in-out 0.40s;
+  color: #d66801;
+  -webkit-clip-path: polygon(0% 15%, 0 0, 100% 0, 100% 15%, 100% 85%, 100% 100%, 0 100%, 0% 85%);
+          clip-path: polygon(0% 15%, 0 0, 100% 0, 100% 15%, 100% 85%, 100% 100%, 0 100%, 0% 85%);
+  -webkit-animation: shake 0.82s;
+          animation: shake 0.82s;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+@-webkit-keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0);
+  }
+  20%,
+  80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0);
+  }
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  background: rgba(49, 20, 1, 0.801);
+  opacity: 0.75;
+}
+
+.title {
+  width: 100%;
+  height: 300px;
+  background: #fd9c42;
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title h1 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.locations {
+  width: 100%;
+  position: relative;
+  background: #e6deda;
+}
+
+.locations .container {
+  position: inherit;
+  padding: 50px 0 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.locations .container h1 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #d66801;
+  font-size: 3.5rem;
+}
+
+.locations .container .placescard {
+  width: 100%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 0 20px 40px 20px;
+}
+
+.locations .container .placescard .item {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px 7px rgba(90, 42, 2, 0.404);
+          box-shadow: 0px 0px 20px 7px rgba(90, 42, 2, 0.404);
+}
+
+.locations .container .placescard .item a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.locations .container .placescard .item a:hover ~ .inf {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.locations .container .placescard .item a:hover ~ .inf h3 {
+  background-color: #d66801;
+}
+
+.locations .container .placescard .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.locations .container .placescard .item .inf {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  background-color: rgba(90, 42, 2, 0.788);
+  top: 0;
+  left: 0;
+  -webkit-transform: translate3d(0, calc(100% - 50px), 0);
+          transform: translate3d(0, calc(100% - 50px), 0);
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.locations .container .placescard .item .inf h3 {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  font-family: "Rouge Script", cursive;
+  color: white;
+  background-color: rgba(90, 42, 2, 0.788);
+}
+
+.locations .container .placescard .item .inf p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  padding: 10px 25px;
+}
+
+.locations .container .introcard {
+  border-radius: 10px;
+  height: 250px;
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.locations .container .introcard h1 {
+  font-family: "Waterfall", cursive;
+  font-size: 3.5rem;
+  color: #d66801;
+  padding: 20px 0 15px 0;
+}
+
+.locations .container .introcard p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1.2rem;
+  color: rgba(90, 42, 2, 0.788);
+  padding-bottom: 30px;
+}
+
+.locations .one {
+  background-color: #d66801;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.activ {
+  background: #efe6af;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.activ .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.activ .container h1 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  text-align: center;
+  color: #d66801;
+  font-size: 3.5rem;
+  padding: 50px 0;
+}
+
+.activ .container .allacts {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.activ .container .allacts .zeta {
+  text-align: right;
+}
+
+.activ .container .allacts .equis {
+  background-image: url("../im/orange.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.activ .container .allacts .three {
+  text-align: left;
+}
+
+.activ .container .allacts .act .fact h4 {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 2.5rem;
+  font-family: "Waterfall", cursive;
+  color: rgba(158, 76, 0, 0.849);
+}
+
+.activ .container .allacts .act .fact p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  color: rgba(90, 42, 2, 0.788);
+  padding: 0 10px 30px 10px;
+}
+
+.tours {
+  background: #361900;
+  width: 100%;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.tours .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.tours .container h1 {
+  font-size: 5rem;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: white;
+  padding-top: 50px;
+}
+
+.tours .container p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1rem;
+  color: #e6deda;
+  padding: 20px 100px;
+}
+
+.tours .container .ops {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0;
+}
+
+.tours .container .ops a {
+  padding: 15px 20px;
+  background: rgba(245, 222, 179, 0.493);
+  margin: 0 10px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+.tours .container .ops a:hover {
+  background: #d66801;
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+}
+
+.news {
+  height: 100%;
+  background-image: url("../im/pexels-artem-beliaikin-1675211.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.news .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 90px 0;
+}
+
+.news .container .newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  border-radius: 28px;
+  background: #fd9c42;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 20px 7px rgba(87, 40, 2, 0.404);
+          box-shadow: 0px 0px 20px 7px rgba(87, 40, 2, 0.404);
+}
+
+.news .container .newsletter h2 {
+  font-size: 2.5rem;
+  font-family: "Rouge Script", cursive;
+  color: white;
+  padding: 30px 0;
+}
+
+.news .container .newsletter .fields {
+  width: 100%;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news .container .newsletter .fields input[type=text],
+.news .container .newsletter .fields input[type=email] {
+  width: 100%;
+  padding: 14px 20px;
+  border-style: none none solid none;
+  border-width: 5px;
+  border-color: rgba(90, 42, 2, 0.788);
+  background: transparent;
+  margin: 0 10px;
+  color: white;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1rem;
+}
+
+.news .container .newsletter .fields input[type=text]:focus,
+.news .container .newsletter .fields input[type=email]:focus {
+  outline: none;
+  border-color: #d66801;
+}
+
+.news .container .newsletter .fields input::-webkit-input-placeholder {
+  color: white;
+}
+
+.news .container .newsletter .fields input:-ms-input-placeholder {
+  color: white;
+}
+
+.news .container .newsletter .fields input::-ms-input-placeholder {
+  color: white;
+}
+
+.news .container .newsletter .fields input::placeholder {
+  color: white;
+}
+
+.news .container .newsletter .fields input[type=submit] {
+  width: 60%;
+  background-color: rgba(158, 76, 0, 0.849);
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 16px 31px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1rem;
+}
+
+.news .container .newsletter .fields input[type=submit]:hover {
+  background-color: #d66801;
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  background-image: url("../im/landscape-tree-nature-grass-horizon-light-29534-pxhere.com.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px 0;
+}
+
+.about .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .container .images {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .container .images .one {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(214, 104, 1, 0.486);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 5px #d66801;
+  -webkit-transition: ease-in-out 0.20s;
+  transition: ease-in-out 0.20s;
+  -webkit-animation: spin 10s linear infinite;
+          animation: spin 10s linear infinite;
+  -webkit-animation: beat 3.5s infinite;
+          animation: beat 3.5s infinite;
+}
+
+@-webkit-keyframes beat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes beat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.about .container .images .one .us {
+  display: block;
+  width: 250px;
+  height: 250px;
+  background-image: url("../im/pexels-jake-heinemann-1482101.jpg");
+  background-position: right;
+  background-size: cover;
+  -webkit-animation: beat 4s infinite;
+          animation: beat 4s infinite;
+  border-radius: 50%;
+}
+
+@keyframes beat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.about .container .info {
+  width: 50%;
+}
+
+.about .container .info .alltext {
+  background-color: #d66801;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 0px 20px 3px rgba(71, 33, 2, 0.733);
+          box-shadow: 0px 0px 20px 3px rgba(71, 33, 2, 0.733);
+}
+
+.about .container .info .alltext h2 {
+  font-family: "Rouge Script", cursive;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding: 50px 0;
+}
+
+.about .container .info .alltext p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 0 50px 50px 50px;
+}
+
+.doit {
+  width: 100%;
+  height: 100%;
+  background-color: #e6deda;
+}
+
+.doit .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+}
+
+.doit .container h2 {
+  font-size: 4rem;
+  color: rgba(90, 42, 2, 0.788);
+  text-align: center;
+  font-family: "Waterfall", cursive;
+  padding: 30px 0;
+}
+
+.doit .container .todo {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.doit .container .todo .diyelement {
+  height: 300px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.doit .container .todo .diyelement:nth-child(even) .uno {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+}
+
+.doit .container .todo .diyelement:nth-child(even) .uno h3 {
+  color: #5a2a02;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 2rem;
+}
+
+.doit .container .todo .diyelement:nth-child(even) .uno p {
+  color: rgba(158, 76, 0, 0.849);
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding: 20px 0;
+}
+
+.doit .container .todo .diyelement:nth-child(even) .uno a {
+  width: 100%;
+  text-align: center;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1.2rem;
+  color: #361900;
+  padding: 10px 0;
+  background-color: wheat;
+}
+
+.doit .container .todo .diyelement:nth-child(even) .uno a:hover {
+  -webkit-transition: ease-in-out 0.40s;
+  transition: ease-in-out 0.40s;
+  color: white;
+  background-color: #fd9c42;
+}
+
+.doit .container .todo .diyelement:nth-child(even) .dos {
+  width: 60%;
+  background-size: cover;
+  background-position: center;
+}
+
+.doit .container .todo .diyelement:nth-child(odd) .uno {
+  width: 60%;
+  background-size: cover;
+  background-position: center;
+}
+
+.doit .container .todo .diyelement:nth-child(odd) .dos {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.doit .container .todo .diyelement:nth-child(odd) .dos h3 {
+  color: #5a2a02;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 2rem;
+}
+
+.doit .container .todo .diyelement:nth-child(odd) .dos p {
+  color: rgba(158, 76, 0, 0.849);
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding: 20px 0;
+}
+
+.doit .container .todo .diyelement:nth-child(odd) .dos a {
+  width: 100%;
+  text-align: center;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1.2rem;
+  color: #361900;
+  padding: 10px 0;
+  background-color: wheat;
+}
+
+.doit .container .todo .diyelement:nth-child(odd) .dos a:hover {
+  -webkit-transition: ease-in-out 0.40s;
+  transition: ease-in-out 0.40s;
+  color: white;
+  background-color: #fd9c42;
+}
+
+.doit .container .todo .rone .uno {
+  background-image: url("../im/fruit-2305192_1280.jpg");
+}
+
+.doit .container .todo .rtwo .dos {
+  background-image: url("../im/macarons-2548827_1280.jpg");
+}
+
+.doit .container .todo .rthree .uno {
+  background-image: url("../im/plum-cake-3641849_1280.jpg");
+}
+
+.doit .container .todo .rfour .uno {
+  background-image: url("../im/candle-1021137_1280.jpg");
+}
+
+.doit .container .todo .rfive .dos {
+  background-image: url("../im/soap-2726378_1280.jpg");
+}
+
+.doit .container .todo .rsix .uno {
+  background-image: url("../im/anise-2785512_1280.jpg");
+}
+
+.cont .topcont {
+  width: 100%;
+  height: 300px;
+  background-image: url("../im/sky-cloud-grassland-nature-field-meadow-1438123-pxhere.com.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cont .topcont .container {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.cont .topcont .container .web {
+  background-color: rgba(90, 42, 2, 0.651);
+}
+
+.cont .topcont .container .web .fa-at {
+  font-size: 3rem;
+}
+
+.cont .topcont .container .add {
+  background-color: rgba(214, 104, 1, 0.356);
+}
+
+.cont .topcont .container .add .fa-home {
+  font-size: 3rem;
+}
+
+.cont .topcont .container .num {
+  background-color: rgba(90, 42, 2, 0.651);
+}
+
+.cont .topcont .container .num .fa-phone-volume {
+  font-size: 3rem;
+}
+
+.cont .topcont .container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.cont .topcont .container div p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 1.3rem;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.cont .faq {
+  width: 100%;
+}
+
+.cont .faq .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cont .faq .container h2 {
+  font-size: 4rem;
+  font-family: "Rouge Script", cursive;
+  text-align: center;
+  color: #d66801;
+  padding: 40px;
+}
+
+.cont .faq .container .quest {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  padding-bottom: 40px;
+}
+
+.cont .faq .container .quest div {
+  padding: 30px 30px;
+}
+
+.cont .faq .container .quest div h4 {
+  color: #361900;
+  font-family: "Waterfall", cursive;
+  padding: 10px 0;
+  font-size: 2rem;
+}
+
+.cont .faq .container .quest div p {
+  color: #5a2a02;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+footer {
+  width: 100%;
+  background-color: #d66801;
+}
+
+footer .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container .redes {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .container .redes .logo {
+  padding: 20px;
+}
+
+footer .container .redes .logo img {
+  height: 80px;
+}
+
+footer .container .redes .media {
+  padding: 20px;
+}
+
+footer .container .redes .media h3 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  color: white;
+  padding: 5px 0;
+}
+
+footer .container .redes .media .icons .fa-instagram,
+footer .container .redes .media .icons .fa-twitter-square,
+footer .container .redes .media .icons .fa-facebook-square,
+footer .container .redes .media .icons .fa-linkedin {
+  color: white;
+  font-size: 2rem;
+}
+
+footer .container .redes .media .icons .fa-instagram:hover,
+footer .container .redes .media .icons .fa-twitter-square:hover,
+footer .container .redes .media .icons .fa-facebook-square:hover,
+footer .container .redes .media .icons .fa-linkedin:hover {
+  color: #5a2a02;
+}
+
+footer .container .phycontact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+footer .container .phycontact .homeinf {
+  width: 50%;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .container .phycontact .homeinf h3 {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding: 5px 0;
+}
+
+footer .container .phycontact .homeinf .ic ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container .phycontact .homeinf .ic ul li .fa-phone-square-alt,
+footer .container .phycontact .homeinf .ic ul li .fa-envelope-square {
+  font-size: 1.5rem;
+}
+
+footer .container .phycontact .homeinf .ic ul li p {
+  padding-left: 5px;
+}
+
+footer .container .phycontact .homeadd {
+  padding: 0 20px;
+}
+
+footer .container .phycontact .homeadd .fa-home {
+  font-size: 1.5rem;
+}
+
+footer .regbrand {
+  background-color: wheat;
+}
+
+footer .regbrand .container {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #5a2a02;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+footer .regbrand .container .nombre {
+  width: 30%;
+}
+
+footer .regbrand .container .marca {
+  width: 30%;
+}
+
+@media (max-width: 991.98px) {
+  header {
+    height: 500px;
+  }
+  header .container h1 {
+    font-size: 2rem;
+    padding: 200px 0 15px 0;
+  }
+  header .container p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  header .container button {
+    font-size: 1rem;
+  }
+  header::before {
+    height: 500px;
+  }
+  nav {
+    height: 150px;
+  }
+  nav .container .desk {
+    display: none;
+  }
+  nav .container .mobile {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav .container .mobile .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  nav .container .mobile .logo img {
+    height: 60px;
+  }
+  nav .container .mobile .menu {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    z-index: 5;
+  }
+  nav .container .mobile .menu .nmenubtn {
+    width: 100%;
+    background-color: #d66801;
+    color: white;
+    border: none;
+    border-radius: 28px;
+    -webkit-clip-path: none;
+            clip-path: none;
+    padding: 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  nav .container .mobile .menu .nmenubtn:hover {
+    background-color: #d66801;
+    color: white;
+  }
+  nav .container .mobile .menu .dropdown-child {
+    display: none;
+    position: absolute;
+    background-color: wheat;
+    color: #5a2a02;
+    font-family: "Rouge Script", cursive;
+    width: 75%;
+    height: 100%;
+    margin-left: 20px;
+  }
+  nav .container .mobile .menu .dropdown-child a {
+    color: #361900;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    background-color: wheat;
+  }
+  nav .container .mobile .menu .dropdown-child a:hover {
+    background-color: #361900;
+    color: white;
+    -webkit-transition: ease-in-out 0.25s;
+    transition: ease-in-out 0.25s;
+  }
+  nav .container .mobile .menu:hover .dropdown-child {
+    display: block;
+  }
+  .locations .container {
+    padding: 80px 0 50px 0;
+  }
+  .locations .container h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #361900;
+    font-size: 2.5rem;
+  }
+  .locations .container .placescard {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    padding: 0 20px 40px 20px;
+  }
+  .locations .container .placescard .item {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 7px rgba(90, 42, 2, 0.404);
+            box-shadow: 0px 0px 20px 7px rgba(90, 42, 2, 0.404);
+  }
+  .locations .container .placescard .item a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+  .locations .container .placescard .item a:hover ~ .inf {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .locations .container .introcard {
+    height: 100%;
+  }
+  .locations .container .introcard h1 {
+    font-size: 2rem;
+  }
+  .locations .container .introcard p {
+    font-size: 1rem;
+  }
+  .locations .one {
+    height: 100%;
+    width: 150px;
+    top: 0;
+    left: 100px;
+  }
+  .activ {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .activ .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .activ .container h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: #d66801;
+    font-size: 2.5rem;
+    padding: 50px 20px 10px 20px;
+  }
+  .activ .container .allacts {
+    width: 70%;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .activ .container .allacts .equis {
+    background-size: contain;
+    background-image: url("../im/orangemob.jpg");
+    height: 350px;
+  }
+  .activ .container .allacts .act .fact p {
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-size: 1rem;
+    color: rgba(90, 42, 2, 0.788);
+    padding: 0 0 20px 0;
+  }
+  .tours .container h1 {
+    font-size: 3rem;
+  }
+  .tours .container .ops {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0;
+  }
+  .tours .container .ops a {
+    margin: 10px 0;
+  }
+  .news .container .newsletter h2 {
+    font-size: 2.5rem;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  .news .container .newsletter .fields {
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .title {
+    height: 250px;
+    padding-top: 150px;
+  }
+  .title h1 {
+    font-size: 1.8rem;
+  }
+  .about {
+    padding: 10px 0 50px 0;
+  }
+  .about .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .container .images {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  .about .container .info {
+    width: 90%;
+  }
+  .about .container .info .alltext h2 {
+    font-size: 3rem;
+    padding: 50px 0 20px 0;
+  }
+  .doit {
+    padding-bottom: 0;
+  }
+  .doit .container h2 {
+    font-size: 3rem;
+    padding: 25px 0;
+  }
+  .doit .container .todo .diyelement {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .doit .container .todo .diyelement:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .doit .container .todo .diyelement:nth-child(even) .uno {
+    height: 300px;
+    width: 90%;
+  }
+  .doit .container .todo .diyelement:nth-child(even) .uno p {
+    text-align: center;
+  }
+  .doit .container .todo .diyelement:nth-child(even) .uno a {
+    font-size: 1.5rem;
+  }
+  .doit .container .todo .diyelement:nth-child(even) .dos {
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+  }
+  .doit .container .todo .diyelement:nth-child(odd) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .doit .container .todo .diyelement:nth-child(odd) .uno {
+    height: 300px;
+    width: 90%;
+    background-size: cover;
+  }
+  .doit .container .todo .diyelement:nth-child(odd) .dos {
+    height: 300px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .doit .container .todo .diyelement:nth-child(odd) .dos p {
+    text-align: center;
+  }
+  .doit .container .todo .diyelement:nth-child(odd) .dos a {
+    font-size: 1.5rem;
+  }
+  .cont .topcont {
+    height: 900px;
+  }
+  .cont .topcont .container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .cont .topcont .container div p {
+    font-size: 1.7rem;
+  }
+  .cont .faq {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .cont .faq .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cont .faq .container h2 {
+    font-size: 2.8rem;
+    padding: 40px 0 10px 0;
+  }
+  .cont .faq .container .quest {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .cont .faq .container .quest div {
+    padding: 10px 30px;
+  }
+  footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container .redes {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container .redes .media {
+    padding: 20px;
+  }
+  footer .container .phycontact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .container .phycontact .homeinf {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .phycontact .homeinf .ic ul li .fa-phone-square-alt,
+  footer .container .phycontact .homeinf .ic ul li .fa-envelope-square {
+    font-size: 1.5rem;
+  }
+  footer .container .phycontact .homeinf .ic ul li p {
+    padding-left: 5px;
+  }
+  footer .container .phycontact .homeadd {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer .container .phycontact .homeadd .fa-home {
+    font-size: 1.5rem;
+    padding-right: 5px;
+  }
+  footer .regbrand .container {
+    height: 70px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  footer .regbrand .container .nombre {
+    width: 100%;
+  }
+  footer .regbrand .container .marca {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

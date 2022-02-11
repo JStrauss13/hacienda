@@ -1,0 +1,669 @@
+.locations {
+    width: 100%;
+    position: relative;
+    background: $gray;
+
+    .container {
+        position: inherit;
+        padding: 50px 0 50px 0;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-family: $fontone;
+            text-align: center;
+            padding-bottom: 50px;
+            color: $orange;
+            font-size: 3.5rem;
+        }
+
+        .placescard {
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            padding: 0 20px 40px 20px;
+
+            .item {
+                position: relative;
+                height: 300px;
+                overflow: hidden;
+                border-radius: 10px;
+                box-shadow: 0px 0px 20px 7px rgba(90, 42, 2, 0.404);
+
+                a {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 3;
+
+                    &:hover~.inf {
+                        transform: translate3d(0, 0, 0);
+                        h3 {background-color: $orange;}
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+                .inf {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: absolute;
+                    background-color: $broopa;
+                    top: 0;
+                    left: 0;
+                    transform: translate3d(0, calc(100% - 50px), 0);
+                    transition: transform 300ms;
+
+                    h3 {
+                        width: 100%;
+                        text-align: center;
+                        padding: 10px 0;
+                        font-size: 1.5rem;
+                        font-family: $fonttwo;
+                        color: $white;
+                        background-color: $broopa;
+                    }
+
+                    p {
+                        font-family: $fontone;
+                        color: $white;
+                        font-size: 1.1rem;
+                        padding: 10px 25px;
+                    }
+                }
+            }
+        }
+
+        .introcard {
+            border-radius: 10px;
+            height: 250px;
+            background-color: $white;
+            padding: 20px 50px;
+
+            h1 {
+                font-family: $curtwo;
+                font-size: 3.5rem;
+                color: $orange;
+                padding: 20px 0 15px 0;
+            }
+
+            p {
+                font-family: $fontone;
+                font-size: 1.2rem;
+                color: $broopa;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .one {
+        background-color: $orange;
+        height: 150px;
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
+}
+
+.activ {
+    background: $paleyellow;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-family: $fontone;
+            text-align: center;
+            color: $orange;
+            font-size: 3.5rem;
+            padding: 50px 0;
+        }
+
+        .allacts {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+
+            .zeta {
+                text-align: right;
+            }
+
+            .equis {
+                background-image: url("../im/orange.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .three {
+                text-align: left;
+            }
+
+            .act {
+                .fact {
+                    h4 {
+                        width: 100%;
+                        padding: 10px 0;
+                        font-size: 2.5rem;
+                        font-family: $curtwo;
+                        color: $darko;
+                    }
+
+                    p {
+                        font-family: $mainfont;
+                        font-size: 1.1rem;
+                        color: $broopa;
+                        padding: 0 10px 30px 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.tours {
+    background: $darkb;
+    width: 100%;
+    padding-bottom: 10px;
+    overflow: hidden;
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h1 {
+            font-size: 5rem;
+            font-family: $fontone;
+            color: $white;
+            padding-top: 50px;
+        }
+
+        p {
+            font-family: $fontone;
+            font-size: 1rem;
+            color: $gray;
+            padding: 20px 100px;
+        }
+
+        .ops {
+            display: flex;
+            padding: 40px 0;
+
+            a {
+                padding: 15px 20px;
+                background: $wheopa;
+                margin: 0 10px;
+                color: $white;
+                font-family: $mainfont;
+
+                &:hover {
+                    background: $orange;
+                    transition: ease-in-out 0.25s;
+                }
+            }
+        }
+
+    }
+}
+
+.news {
+    height: 100%;
+    background-image: url("../im/pexels-artem-beliaikin-1675211.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 90px 0;
+
+        .newsletter {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 70%;
+            border-radius: 28px;
+            background: $lighto;
+            padding-bottom: 20px;
+            box-shadow: 0px 0px 20px 7px rgba(87, 40, 2, 0.404);
+
+            h2 {
+                font-size: 2.5rem;
+                font-family: $fonttwo;
+                color: $white;
+                padding: 30px 0;
+            }
+
+            .fields {
+                width: 100%;
+                padding: 0 20px;
+                display: flex;
+
+                input[type=text],
+                input[type=email] {
+                    width: 100%;
+                    padding: 14px 20px;
+                    border-style: none none solid none;
+                    border-width: 5px;
+                    border-color: $broopa;
+                    background: transparent;
+                    margin: 0 10px;
+                    color: $white;
+                    font-family: $fontone;
+                    font-size: 1rem;
+
+                    &:focus {
+                        outline: none;
+                        border-color: $orange;
+                    }
+                }
+
+                input::placeholder {
+                    color: $white;
+                }
+
+                input[type=submit] {
+                    width: 60%;
+                    background-color: $darko;
+                    border-radius: 28px;
+                    border: none;
+                    cursor: pointer;
+                    color: $white;
+                    padding: 16px 31px;
+                    font-family: $fontone;
+                    font-size: 1rem;
+
+                    &:hover {
+                        background-color: $orange;
+                        transition: ease-in-out 0.25s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.about {
+    width: 100%;
+    height: 100%;
+    background-image: url("../im/landscape-tree-nature-grass-horizon-light-29534-pxhere.com.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 0;
+
+    .container {
+        height: 100%;
+        display: flex;
+
+        .images {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .one {
+                width: 300px;
+                height: 300px;
+                background-color: $oraopae;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: solid 5px $orange;
+                transition: ease-in-out 0.20s;
+                animation: spin 10s linear infinite;
+                animation: beat 3.5s infinite;
+
+                @keyframes beat {
+                    0% {
+                        transform: scale(1);
+                    }
+
+                    50% {
+                        transform: scale(0.8);
+                    }
+
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+
+                .us {
+                    display: block;
+                    width: 250px;
+                    height: 250px;
+                    background-image: url("../im/pexels-jake-heinemann-1482101.jpg");
+                    background-position: right;
+                    background-size: cover;
+                    animation: beat 4s infinite;
+                    border-radius: 50%;
+                }
+
+                @keyframes beat {
+                    0% {
+                        transform: scale(1);
+                    }
+
+                    50% {
+                        transform: scale(0.8);
+                    }
+
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+
+        .info {
+            width: 50%;
+
+            .alltext {
+                background-color: $orange;
+                border-radius: 28px;
+                box-shadow: 0px 0px 20px 3px rgba(71, 33, 2, 0.733);
+
+                h2 {
+                    font-family: $fonttwo;
+                    color: $white;
+                    text-align: center;
+                    font-size: 3rem;
+                    padding: 50px 0;
+                }
+
+                p {
+                    font-family: $fontone;
+                    color: $white;
+                    text-align: center;
+                    padding: 0 50px 50px 50px;
+                }
+            }
+        }
+    }
+}
+
+
+.doit {
+    width: 100%;
+    height: 100%;
+    background-color: $gray;
+
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: $white;
+
+        h2 {
+            font-size: 4rem;
+            color: $broopa;
+            text-align: center;
+            font-family: $curtwo;
+            padding: 30px 0;
+        }
+
+        .todo {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .diyelement {
+                height: 300px;
+                background-color: $white;
+                display: flex;
+                padding: 10px 10px;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                &:nth-child(even) {
+                    .uno {
+                        width: 40%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 20px;
+
+                        h3 {
+                            color: $brown;
+                            font-family: $fontone;
+                            font-size: 2rem;
+                        }
+
+                        p {
+                            color: $darko;
+                            font-family: $fontone;
+                            padding: 20px 0;
+                        }
+
+                        a {
+                            width: 100%;
+                            text-align: center;
+                            font-family: $fontone;
+                            font-size: 1.2rem;
+                            color: $darkb;
+                            padding: 10px 0;
+                            background-color: $wheat;
+
+                            &:hover {
+                                transition: ease-in-out 0.40s;
+                                color: $white;
+                                background-color: $lighto;
+                            }
+                        }
+                    }
+
+                    .dos {
+                        width: 60%;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+
+                &:nth-child(odd) {
+                    .uno {
+                        width: 60%;
+                        background-size: cover;
+                        background-position: center;
+                    }
+
+                    .dos {
+                        width: 40%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 20px;
+                        flex-direction: column;
+
+                        h3 {
+                            color: $brown;
+                            font-family: $fontone;
+                            font-size: 2rem;
+                        }
+
+                        p {
+                            color: $darko;
+                            font-family: $fontone;
+                            padding: 20px 0;
+                        }
+
+                        a {
+                            width: 100%;
+                            text-align: center;
+                            font-family: $fontone;
+                            font-size: 1.2rem;
+                            color: $darkb;
+                            padding: 10px 0;
+                            background-color: $wheat;
+
+                            &:hover {
+                                transition: ease-in-out 0.40s;
+                                color: $white;
+                                background-color: $lighto;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rone {
+                .uno {
+                    background-image: url("../im/fruit-2305192_1280.jpg");
+                }
+            }
+
+            .rtwo {
+                .dos {
+                    background-image: url("../im/macarons-2548827_1280.jpg");
+                }
+            }
+
+            .rthree {
+                .uno {
+                    background-image: url("../im/plum-cake-3641849_1280.jpg");
+                }
+            }
+
+            .rfour {
+                .uno {
+                    background-image: url("../im/candle-1021137_1280.jpg");
+                }
+            }
+
+            .rfive {
+                .dos {
+                    background-image: url("../im/soap-2726378_1280.jpg");
+                }
+            }
+
+            .rsix {
+                .uno {
+                    background-image: url("../im/anise-2785512_1280.jpg");
+                }
+            }
+        }
+
+    }
+}
+
+.cont {
+    .topcont {
+        width: 100%;
+        height: 300px;
+        background-image: url("../im/sky-cloud-grassland-nature-field-meadow-1438123-pxhere.com.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+        .container {
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            .web {
+                background-color: rgba(90, 42, 2, 0.651);
+
+                .fa-at {
+                    font-size: 3rem;
+                }
+            }
+
+            .add {
+                background-color: rgba(214, 104, 1, 0.356);
+
+                .fa-home {
+                    font-size: 3rem;
+                }
+            }
+
+            .num {
+                background-color: rgba(90, 42, 2, 0.651);
+
+                .fa-phone-volume {
+                    font-size: 3rem;
+                }
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: $white;
+
+                p {
+                    font-family: $fontone;
+                    font-size: 1.3rem;
+                    padding: 20px 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .faq {
+        width: 100%;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            h2 {
+                font-size: 4rem;
+                font-family: $fonttwo;
+                text-align: center;
+                color: $orange;
+                padding: 40px;
+            }
+
+            .quest {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                padding-bottom: 40px;
+                div {
+                    padding: 30px 30px;
+                    h4 {
+                        color: $darkb;
+                        font-family: $curtwo;
+                        padding: 10px 0;
+                        font-size: 2rem;
+                    }
+                    p {
+                        color: $brown;
+                        font-family: $fontone;
+                    }
+                }
+            }
+        }
+    }
+}
